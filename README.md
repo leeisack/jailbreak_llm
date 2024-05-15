@@ -20,12 +20,11 @@ Welcome to the **LLM Jailbreak** repository! This project focuses on techniques 
     ```sh
     cd llm-jailbreak
     ```
-3. **generate jailbreak prompt
-   ```sh
-    python typical_prompt_gen.py
-    python renellm_prompt_gen.py
-   ...
-   ```
+3. **Explore the documentation**: Start with the `README.md` and explore the `/docs` folder for detailed guides.
+
+## Language-Specific Effectiveness
+
+Research indicates that jailbreak methods tend to be more effective in languages that are less commonly used for training LLMs. For instance, English may pose more challenges due to its extensive use in training data, while languages like Korean may be easier for jailbreak attempts. Therefore, we recommend starting with Korean and then translating the techniques to your preferred language.
 
 ## Contributions
 
@@ -45,7 +44,6 @@ To help others find this repository, here are some relevant keywords:
 - LLM jailbreak
 - GPT-4 jailbreak
 - AI model restrictions
-- prompt injection
 - Bypass AI limitations
 - Unlock LLM potential
 - AI research
